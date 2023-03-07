@@ -1,0 +1,50 @@
+@media screen and (max-width: 375px) {
+  .dog-img {
+    visibility: hidden;
+  }
+}
+#homePage {
+  min-height: 100vh;
+  background-image: url(dogncat.jpg);
+  background-position: center;
+}
+
+a {
+  color: inherit;
+}
+
+.discoverlink {
+  position: absolute;
+  bottom: 35px;
+}
+
+#navbarNav {
+  justify-content: end;
+  padding-right: 40px;
+  font-size: 20px;
+}
+
+a.navbar-brand {
+  padding-left: 40px;
+  font-size: 40px;
+}
+
+.dog-img {
+  height: 50px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.btn-discover > a {
+  font-size: 22px;
+  text-decoration: none;
+  color: black;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 5px;
+  font-weight: bold;
+}
+
+.icon-discover {
+  padding-top: 10px;
+}

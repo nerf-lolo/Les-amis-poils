@@ -14,6 +14,68 @@
 
 <body>
 
+    <!-- *********** NAVBAR *********** -->
+
+    <header>
+        <nav id="navBarSite" class="navbar navbar-expand-lg navbar-dark position-fixed w-100">
+            <div class="container-fluid" id="petFriends">
+                <a class="navbar-brand" href="#"> Les amis à poils <img class="dog-img"
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEEklEQVR4nO2be6hNWRzHP64x3uM1uDdvSjdi1MhI0ky3uYhkhCt5RTLyh8J4NoOomTt/MTQlkVteaYbMDUkpIVHMiFBIyJBHGDIzjNn61dpa7fbZZ+9z195nLdenfv+cddZZ6/c96/Hbv7U2vCdVBgFXgRvAdKAB9Yg+wBPA0+wY0Jd6QAlwNuC8by+BaqA57zDjcjiv2x1gGu8oB2MI4Nsh4IeALQSqgA44SDPg7wQCRNn/wElgrJpWTvCpIeeDdgrohQOMT0kAscfAZ1hOVYoCeGpr/QSLGZ2yAGKXgKZYStcMBBD7Dou5noEAD9SOYyXzMxoFX2EpzYHLGQiwEYspD3kYymfPgLVATczvn8FyegPnEwiwVKt7PMb3n7sQITYFNqiwNp9Dk7V6O2KK5kR0KFQA91MQYAwO0RO4ZliA5ThGD+ChQQF24iAVwGtDAsgi6yRbDQnwD/ABDlIakjgpRABPJWCdZIchASbgKJWGBFiNozQD/jUgwC84zGkDAlzBYXYZEOA/mzNE+ag2IIDYABxlpSEBnN0JlmlOzMwTKEXZDBxlleaEiOGzIqEAw013rDuwTWVnytVBZi2wyHA76zQn9mmf94uZQ/ATIy0N94sTEQ1OMtiOPtf/Cjiyp5iB0N2IBmV4piX0Aq2sHXAhj/MHgIakwOIcDUpWp5PBdv4M/P5ToLNW3grYArwKGfbfAx+S0QLlqcOI/gZ/v30Okc+FzOlSdUwu292XQBMy4lu1GN017LwwIk+iQ1JoVtAtjVU2xlb3Qp0TdMlRX06J5wKtcZS9MVf512pESP5vk9oub2jlR9NaCNPmVsJgJ8rW4BjdDDrvjxJZU5xhtmEBxB4pYZ1gdwoC+JepGmE5DWIck9XFJMdgNQNSdN5TcYskXK1lccoCeGqbbIGlHMtAAE9dubWO1iEPNmnZTRsvUFRl5LxvA7GMmowFkPXGp1w9QhdNlJICtr8XdRRgs9b+7+ozubxVVgwBBifs/CxVb04dBJA8ps9J7XMZiZmzNmHnG2uB0x8FCqAnWodqiVa5kpdqNikMfwjGtZFaXbkNdlh1PMlvyPmCji7k4Cyd7xIzzb1fOS4J0TBkNHyTQAD5rs5vWtkwMuTrPB19GTgai6JlAgGC//KVYp0n1ubp6LyQOpIRbhOwDmori+P87cDLmqO0sntZBEkfA9vVqy5RHb0Y6MyCiKt0XoHDv1LlC/yy9X6BNDwVWFJH+yJEgCMFvPww0YDj+m3ynwOXMDyVinu7xkwz1NgrdQnSpyxBXQmPfX41KECYXVUR4VumGhRADlR9Oqo7fHHqVua4MWLS5NzxJ6BtcJiWAFNC3t5MYhLgfB4yBYaobG1UXZnvegpLgpUfDUxJ3yT3KNPzo5D+8QYOSTNlQ+naNgAAAABJRU5ErkJggg==">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#homePage">Accueil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#about">Qui sommes-nous?</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Animaux à adopter
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Chats</a></li>
+                                <li><a class="dropdown-item" href="#">Chiens</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- *********** HOMEPAGE *********** -->
+
+    <main class="main-content-website">
+        <section>
+
+            <div class="container-fluid">
+                <div class="row row-cols-1" id="homePage">
+                    <div class=" discoverlink d-flex align-items-center flex-column justify-content-center">
+                        <div class="btn-discover"><a href="#about">Nous découvrir!</a></div>
+                        <div><img class="icon-discover" src="chat.png" alt=""></div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+
 </body>
 
 </html>
