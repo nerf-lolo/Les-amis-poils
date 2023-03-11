@@ -1,3 +1,8 @@
+body {
+  background-image: url(fondanimaux.avif);
+  background-position: center;
+}
+
 .navbar-brand {
   font-size: 40px;
   margin-left: 30px;
@@ -25,9 +30,9 @@
   margin: 5px;
 }
 
-#homePage {
+/* #homePage {
   background-image: url(fondanimaux.avif);
-}
+} */
 
 .btn-container > a {
   border: 2px solid black;
@@ -39,5 +44,15 @@
 }
 
 .btn-discover {
-  margin-bottom: -14px;
+  margin-bottom: -12px;
+}
+
+#about {
+  background-color: #ffc0cbab;
+  margin-top: 20px;
+}
+
+.text-about {
+  background-color: rgba(230, 230, 250, 0.741);
+  border-radius: 10px;
 }
