@@ -1,6 +1,52 @@
+* {
+  font-family: "Cabin", sans-serif;
+  font-family: "Cairo", sans-serif;
+}
+a {
+  /* color: inherit; */
+}
+h2,
+h3,
+h5 {
+  box-shadow: 5px 3px 3px rgb(83, 79, 79);
+  border-radius: 5px;
+}
+h4 {
+  text-decoration: underline;
+}
 p {
   text-align: justify;
 }
 
-@media screen and (max-width: 576) {
+li {
+  list-style-type: none;
+}
+
+main {
+  background-color: rgb(247, 225, 247);
+}
+.btn-container a {
+  margin-top: 25px;
+  border: 2px solid black;
+  height: 80px;
+}
+
+/* ***** MOBILE ***** */
+
+@media screen and (max-width: 390px) {
+  /* NAVBAR */
+  .logo {
+    height: 40px;
+  }
+  .navbar-brand {
+    visibility: hidden;
+  }
+
+  /* HOME SECTION */
+  .carousel-img {
+    height: 225px;
+  }
+}
+
+@media screen and(min-width: 390px) and (max-width: 576px) {
 }
