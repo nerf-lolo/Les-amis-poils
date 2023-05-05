@@ -1,58 +1,6 @@
-body {
-  background-image: url(fondanimaux.avif);
-  background-position: center;
+p {
+  text-align: justify;
 }
 
-.navbar-brand {
-  font-size: 40px;
-  margin-left: 30px;
-}
-
-.logo {
-  height: 50px;
-  padding-right: 10px;
-}
-
-.homePic {
-  height: 350px !important;
-}
-
-.home-article {
-  border: 3px solid rgb(230, 195, 195);
-  background-color: rgba(0, 0, 0, 0.45);
-  border-radius: 35px;
-  padding: 10px;
-}
-
-.text-article {
-  background-color: rgba(255, 199, 125, 0.779);
-  border-radius: 35px;
-  margin: 5px;
-}
-
-/* #homePage {
-  background-image: url(fondanimaux.avif);
-} */
-
-.btn-container > a {
-  border: 2px solid black;
-  width: fit-content;
-  padding: 3px;
-  padding-bottom: 0px;
-  font-weight: bold;
-  font-size: 18px;
-}
-
-.btn-discover {
-  margin-bottom: -12px;
-}
-
-#about {
-  background-color: #ffc0cbab;
-  margin-top: 20px;
-}
-
-.text-about {
-  background-color: rgba(230, 230, 250, 0.741);
-  border-radius: 10px;
+@media screen and (max-width: 576) {
 }
