@@ -1,16 +1,13 @@
 * {
   font-family: "Cabin", sans-serif;
   font-family: "Cairo", sans-serif;
+  /* box-sizing: border-box; */
 }
-a {
-  /* color: inherit; */
+
+main {
+  background-color: rgb(255, 248, 255);
 }
-h2,
-h3,
-h5 {
-  box-shadow: 5px 3px 3px rgb(83, 79, 79);
-  border-radius: 5px;
-}
+
 h4 {
   text-decoration: underline;
 }
@@ -22,9 +19,6 @@ li {
   list-style-type: none;
 }
 
-main {
-  background-color: rgb(247, 225, 247);
-}
 .btn-container a {
   margin-top: 25px;
   border: 2px solid black;
@@ -33,7 +27,7 @@ main {
 
 /* ***** MOBILE ***** */
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 576px) {
   /* NAVBAR */
   .logo {
     height: 40px;
@@ -41,12 +35,24 @@ main {
   .navbar-brand {
     visibility: hidden;
   }
-
   /* HOME SECTION */
-  .carousel-img {
-    height: 225px;
+}
+
+@media screen and (min-width: 576px) {
+  .animals-cards {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .carousel-item img {
+    height: 60vh;
   }
 }
 
-@media screen and(min-width: 390px) and (max-width: 576px) {
+@media screen and (min-width: 768px) {
+  .text-about {
+    display: flex;
+  }
+  .aboutme p {
+    margin-left: 30px;
+  }
 }
