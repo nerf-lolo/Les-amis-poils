@@ -1,13 +1,14 @@
 * {
   font-family: "Cabin", sans-serif;
   font-family: "Cairo", sans-serif;
-  /* box-sizing: border-box; */
 }
 
 body {
-  background-color: rgb(255, 248, 255);
+  background-color: floralwhite;
 }
-
+.container {
+  border-bottom: 3px solid black;
+}
 p {
   text-align: justify;
 }
@@ -24,6 +25,9 @@ li {
 
 .carousel-caption p {
   text-align: center;
+}
+#form-contact {
+  background-color: ghostwhite;
 }
 
 /* ***** MOBILE FIRST ***** */
@@ -88,6 +92,7 @@ li {
   }
   .form {
     width: 75%;
+    margin: auto;
   }
   .social-media > a {
     font-size: 25px;
@@ -112,7 +117,7 @@ li {
 
 @media screen and (min-width: 1200px) {
   #carouselExampleIndicators {
-    width: 70%;
+    width: 60%;
     margin: 0 auto;
   }
   .carousel-item img {
@@ -137,17 +142,6 @@ li {
   .container {
     width: 1150px;
   }
-
-  /* h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  p,
-  strong,
-  form {
-    font-size: 1.5rem;
-  } */
   .social-media > a {
     font-size: 45px;
   }
